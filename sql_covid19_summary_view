@@ -1,0 +1,131 @@
+# 📈 Global COVID‑19 Trends Analysis (SQL Project)
+
+## 🧭 Overview
+
+This project explores worldwide COVID‑19 case, vaccination, and mortality trends using SQL.  
+The goal is to demonstrate data wrangling, aggregation, and analytical storytelling entirely through SQL.  
+
+The analysis uncovers how vaccination rates, policy measures, and geography correlated with infections and fatalities between 2020–2023.
+
+---
+
+## 🗂️ Dataset
+
+- **Source:** [Our World in Data – COVID‑19 Dataset](https://www.kaggle.com/datasets/owid/covid-19-data)  
+- **Public Mirror:** `bigquery-public-data.covid19_open_data`  
+- **License:** Open Data Commons Public Domain Dedication (PDDL)  
+- **Coverage:** 200+ countries, daily updates, 2020–2023  
+- **Main fields:**  
+  - `country_name`  
+  - `continent`  
+  - `date`  
+  - `new_confirmed`, `new_deceased`, `new_vaccinations`  
+  - `population`, `mobility`, `stringency_index`
+
+---
+
+## 🎯 Objectives
+
+1. Analyze global and regional case growth patterns  
+2. Rank countries by vaccination progress and case fatality rate  
+3. Compute 7‑day rolling averages to smooth daily volatility  
+4. Correlate vaccine rollout speed with mortality outcomes  
+5. Visualize key insights in BI dashboards  
+
+---
+
+## 🧮 Sample Queries
+
+### 1. Total Cases and Deaths by Continent
+```sql
+SELECT
+  continent,
+  SUM(new_confirmed) AS total_cases,
+  SUM(new_deceased) AS total_deaths,
+  ROUND(SUM(new_deceased) / SUM(new_confirmed) * 100, 2) AS case_fatality_rate
+FROM
+  `bigquery-public-data.covid19_open_data`
+WHERE
+  date BETWEEN '2020-01-01' AND '2023-12-31'
+  AND continent IS NOT NULL
+GROUP BY
+  continent
+ORDER BY
+  total_cases DESC;
+```
+
+### 2. 7‑Day Moving Average (Indonesia)
+```sql
+SELECT
+  date,
+  country_name,
+  AVG(new_confirmed) OVER (
+    PARTITION BY country_name
+    ORDER BY date
+    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+  ) AS rolling_avg_new_cases
+FROM
+  `bigquery-public-data.covid19_open_data`
+WHERE
+  country_name = 'Indonesia'
+ORDER BY
+  date;
+```
+
+---
+
+## 🔍 Insights
+
+- Continents with earlier vaccine access showed reduced fatality rates  
+- Rolling averages provide clearer trend recognition than daily values  
+- Policy stringency had measurable influence on infection rate trajectory  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Advanced SQL query design & optimization  
+- Window functions, rolling averages, and ranking  
+- Data cleaning and aggregation directly in SQL  
+- Business storytelling from public datasets  
+- Dashboard prototyping (Power BI / Looker Studio)
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Tools |
+|-------|--------|
+| Database | Google BigQuery (Public Dataset) |
+| Query Language | SQL |
+| Visualization | Power BI / Looker Studio |
+| Notebook | Colab / BigQuery Console |
+
+---
+
+## 📊 Preview
+
+*(Insert chart or screenshot here — e.g. vaccination vs fatality rate per continent)*
+
+Example placeholder:  
+`./visuals/global_covid_dashboard.png`
+
+---
+
+## 🔗 References
+
+- [Our World in Data COVID‑19](https://ourworldindata.org/covid-cases)  
+- [BigQuery Public Dataset Docs](https://cloud.google.com/bigquery/public-data)
+
+---
+
+## 🚀 Next Steps
+
+- Expand analysis with socioeconomic indicators (GDP, urbanization, etc.)  
+- Add machine learning prediction with BigQuery ML  
+- Export clean datasets for BI dashboard storytelling  
+
+---
+
+> **Author:** Brian Hernawan  
+> **Contact:** [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/yourusername)
