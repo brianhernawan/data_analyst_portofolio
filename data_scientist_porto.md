@@ -82,4 +82,91 @@ data into decision‑driven insights and intelligent systems supporting growth, 
 **Impact:**  
 - Content creation time ↓ 80 %, SEO CTR ↑ 18 %.
 
-**Tech:** Python, LangChain, OpenAI API, FastAPI, 
+**Tech:** Python, LangChain, OpenAI API, FastAPI, Airtable
+
+---
+
+## 📊 Representative Dashboards
+- **Marketing Intelligence Dashboard** — ROI by channel, conversion funnel, budget forecasts  
+- **Demand Planning Monitor** — SKU‑level forecasts with Prophet overlays  
+- **Customer Sentiment Monitor** — NLP metrics and topic bubbles (Tableau Public)
+
+---
+
+## 🔧 Core Skills
+| Category | Skills |
+|-----------|--------|
+| **Programming** | Python, SQL, R |
+| **ML & AI** | scikit‑learn, PyTorch, TensorFlow, HuggingFace, Prophet, CLIP, ViT |
+| **Analytics & Viz** | Tableau, Power BI, Streamlit |
+| **Cloud & Infra** | GCP, AWS, Proxmox, Docker, Airbyte, dbt |
+| **Specialties** | NLP, Computer Vision, Forecasting, Marketing Analytics, MLOps (MLflow), A/B Testing |
+
+---
+
+## 🧭 Mapping to Target Roles
+
+| Target Role | Relevant BBF Achievements |
+|--------------|---------------------------|
+| **NLP/CV Scientist (Job 1)** | NLP (review analysis), CV (product QA), model deployment |
+| **Marketing Analyst (Job 2)** | ROI models, attribution, Tableau dashboards |
+| **Product Analyst (Job 3)** | A/B testing, experimentation, data storytelling |
+| **Consulting Data Scientist (Job 4)** | Real‑world deployment, cross‑discipline coordination |
+| **ML Product Analyst (Job 5)** | KPI definition, predictive insights with Python / SQL |
+| **Customer Analytics Scientist (Job 6)** | Churn/LTV frameworks, retention modeling potential |
+
+---
+
+## 💬 Portfolio Summary
+> *At BBF Meat Shop, I transformed messy retail and marketing data into production‑ready
+machine‑learning systems. Through NLP, computer vision, and predictive analytics, I helped
+streamline quality control, forecasting, and customer communication—turning insights
+into measurable growth.*
+
+---
+
+## 🔗 Showcase Assets
+*(Example placeholders; replace with your links)*
+
+- [Tableau Public – Marketing ROI Dashboard](#)
+- [GitHub – Sentiment Pipeline Demo (IndoBERT)](#)
+- [Streamlit – Demand Forecast Explorer](#)
+- [Medium – Automating Product Content with GPT](#)
+
+---
+
+## 🗂 Recommended GitHub Structure
+
+
+
+bbfmeatshop-portfolio/
+
+├── README.md
+
+├── notebooks/
+
+│   ├── forecast_model.ipynb
+
+│   ├── nlp_sentiment_pipeline.ipynb
+
+│   └── vision_quality_check.ipynb
+
+├── dashboards/
+
+│   ├── marketing_roi.twbx
+
+│   └── demand_forecast_dashboard.twbx
+
+├── data/ (sample or synthetic data)
+
+│   ├── sales_sample.csv
+
+│   └── reviews_sample.csv
+
+└── api_demo/
+
+├── flask_app.py
+
+├── requirements.txt
+
+└── README.md
