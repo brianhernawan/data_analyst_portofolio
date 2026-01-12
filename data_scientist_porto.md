@@ -45,7 +45,7 @@ data into decision‑driven insights and intelligent systems supporting growth, 
 
 ---
 
-### 3. Computer Vision for Product Consistency
+### 3. Computer Vision for Product Consistency ->> A/B testing and Geo Spatial
 **Objective:** Identify non‑uniform meat cuts from production line cameras.  
 **Solution:**
 - Trained lightweight **ViT + ResNet** model on labeled image dataset.
