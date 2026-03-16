@@ -34,7 +34,7 @@ I believe every insight should be traceable, explainable, and actionable—turni
 | [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing Correlation between Views and Length of Regular Videos | Excel · Tableau |
 | [BMW Sales Review Excel Dashboard](https://github.com/brianhernawan/data_analyst_portofolio/blob/main/BMW_Sales_Data_2010-2014_V03.xlsx) | Excel dashboard analyzing Sales car type & regions | Excel Dashboard |
 | [Car Sales Review Excel Dashboard](https://github.com/brianhernawan/data_analyst_portofolio/blob/main/Car_Sales_Excel_Dashboard.xlsx) | Excel dashboard analyzing Sales car type & average car sales price | Excel Dashboard |
-| [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
+| [Predictive Model using Poisson Distribution Excel/Gsheet Dashboard](https://github.com/brianhernawan/data_analyst_portofolio/blob/main/4.%20Predictive%20Model%20using%20Poisson%20Distribution%20Excel%20Dashboard.xlsx) | Predictive Model using Poisson Distribution  | Excel Dashboard · Gsheet Dashboard|
 
 ---
 ## 🧠 Tech Highlights
