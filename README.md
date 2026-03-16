@@ -18,10 +18,10 @@ I believe every insight should be traceable, explainable, and actionable—turni
 ## 🧭 About Me
 
 - 🎯 Focus areas: Data cleaning, analysis, visualization, and predictive insights  
-- ⚙️ Tools I love: `Google Sheets``SQL` · `Power BI` · `Tableau` ·   `Python` · `R` · 
+- ⚙️ Tools I love: `Google Sheets` · `SQL` · `Power BI` · `Tableau` ·   `Python` · `R` · 
 - 💡 Interests: business intelligence, customer behavior, and process optimization  
-- 🌱 Currently learning: automation, API data pipelines, and cloud analytics  
-- 📫 Reach me at: **[LinkedIn](https://linkedin.com/in/yourprofile)** or **your.email@example.com**
+- 🌱 Currently learning: ML engineering, Deep Learning
+- 📫 Reach me at: **[LinkedIn]([https://linkedin.com/in/brian-hernawan/])** or **brian.hernawan@gmail.com**
 
 ---
 
@@ -29,6 +29,13 @@ I believe every insight should be traceable, explainable, and actionable—turni
 
 | Project | Description | Stack / Skills |
 |----------|--------------|----------------|
+
+
+
+| [Airlines Service Level Review] (https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | 
+
+
+
 | [Retail Sales Dashboard](https://github.com/youruser/retail-sales-dashboard) | Interactive BI dashboard analyzing monthly sales & customer trends | SQL · Power BI · DAX |
 | [Customer Churn Analysis](https://github.com/youruser/churn-analysis) | Predictive model identifying churn risks & retention opportunities | Python · pandas · scikit‑learn |
 | [Netflix Dataset Insights](https://github.com/youruser/netflix-insights) | Data storytelling project exploring content trends | Python · matplotlib · seaborn |
