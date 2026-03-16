@@ -29,7 +29,7 @@ I believe every insight should be traceable, explainable, and actionable—turni
 
 | Project | Description | Stack / Skills |
 |----------|--------------|----------------|
-| [Airlines Service Level Review] (https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
+| [Airlines Service Level Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 
 ---
 \
