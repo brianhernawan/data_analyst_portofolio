@@ -21,7 +21,7 @@ I believe every insight should be traceable, explainable, and actionable—turni
 - ⚙️ Tools I love: `Google Sheets` · `SQL` · `Power BI` · `Tableau` ·   `Python` · `R` · 
 - 💡 Interests: business intelligence, customer behavior, and process optimization  
 - 🌱 Currently learning: ML engineering, Deep Learning
-- 📫 Reach me at: **[LinkedIn](https://linkedin.com/in/brian-hernawan/) ** or **brian.hernawan@gmail.com**
+- 📫 Reach me at: **[LinkedIn](https://linkedin.com/in/brian-hernawan/)** or **brian.hernawan@gmail.com**
 
 ---
 
