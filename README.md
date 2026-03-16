@@ -33,15 +33,15 @@ I believe every insight should be traceable, explainable, and actionable—turni
 
 
 | [Airlines Service Level Review] (https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | 
-
-
+---
+\*
 
 | [Retail Sales Dashboard](https://github.com/youruser/retail-sales-dashboard) | Interactive BI dashboard analyzing monthly sales & customer trends | SQL · Power BI · DAX |
 | [Customer Churn Analysis](https://github.com/youruser/churn-analysis) | Predictive model identifying churn risks & retention opportunities | Python · pandas · scikit‑learn |
 | [Netflix Dataset Insights](https://github.com/youruser/netflix-insights) | Data storytelling project exploring content trends | Python · matplotlib · seaborn |
 | [Marketing Funnel Report](https://github.com/youruser/marketing-funnel) | Visualization of conversion performance & recommendations | SQL · Google Data Studio |
+\*
 
----
 
 ## 🧠 Tech Highlights
 
