@@ -33,46 +33,15 @@ I believe every insight should be traceable, explainable, and actionable—turni
 | [Washington House Sales Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/WashingtonHouseSales_17713782738880/HouseSalesDashboard) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 | [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 
----
-
-
-| [Retail Sales Dashboard](https://github.com/youruser/retail-sales-dashboard) | Interactive BI dashboard analyzing monthly sales & customer trends | SQL · Power BI · DAX |
-| [Customer Churn Analysis](https://github.com/youruser/churn-analysis) | Predictive model identifying churn risks & retention opportunities | Python · pandas · scikit‑learn |
-| [Netflix Dataset Insights](https://github.com/youruser/netflix-insights) | Data storytelling project exploring content trends | Python · matplotlib · seaborn |
-| [Marketing Funnel Report](https://github.com/youruser/marketing-funnel) | Visualization of conversion performance & recommendations | SQL · Google Data Studio |
-\*
 
 ---
 ## 🧠 Tech Highlights
 
-- Data wrangling and feature engineering  
+- Data wrangling and data cleaning
 - SQL joins, CTEs, and window functions  
 - Exploratory data analysis & visualization  
 - Business storytelling and actionable insights  
 - Version control and reproducible notebooks
-
----
-
-## 📁 Repo Structure Example
-
-```text
-portfolio/
-├── retail-sales-dashboard/
-│   ├── data/
-│   ├── notebooks/
-│   ├── visuals/
-│   └── README.md
-├── churn-analysis/
-└── README.md (this file)
-```
-
----
-
-## 🚀 Next Steps
-
-- Add live dashboards or share screenshots in the `visuals/` folder  
-- Use concise write‑ups explaining *why* each project matters  
-- Keep at least 3 complete, well‑commented projects pinned on GitHub  
 
 ---
 
