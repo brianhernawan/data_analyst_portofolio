@@ -30,9 +30,11 @@ I believe every insight should be traceable, explainable, and actionable—turni
 | Project | Description | Stack / Skills |
 |----------|--------------|----------------|
 | [Birtish Airways Service Level Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
-| [Washington House Sales Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/WashingtonHouseSales_17713782738880/HouseSalesDashboard) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
+| [Washington House Sales Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/WashingtonHouseSales_17713782738880/HouseSalesDashboard) | Interactive BI dashboard analyzing House Sales & customer trends | Excel · Tableau |
+| [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing Correlation between Views and Length of Regular Videos | Excel · Tableau |
+| [BMW Sales Review Excel Dashboard](https://github.com/brianhernawan/data_analyst_portofolio/blob/main/BMW_Sales_Data_2010-2014_V03.xlsx) | Excel dashboard analyzing Sales car type & regions | Excel Dashboard |
+| [Car Sales Review Excel Dashboard](https://github.com/brianhernawan/data_analyst_portofolio/blob/main/Car_Sales_Excel_Dashboard.xlsx) | Excel dashboard analyzing Sales car type & average car sales price | Excel Dashboard |
 | [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
-
 
 ---
 ## 🧠 Tech Highlights
