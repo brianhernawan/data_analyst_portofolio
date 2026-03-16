@@ -31,6 +31,8 @@ I believe every insight should be traceable, explainable, and actionable—turni
 |----------|--------------|----------------|
 | [Airlines Service Level Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 
+| [Washington House Sales Review]([https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways](https://public.tableau.com/app/profile/brianca.hernawan/viz/WashingtonHouseSales_17713782738880/HouseSalesDashboard)) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
+| [Channel Performance Review]([https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance)) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 
 ---
 
