@@ -1,0 +1,80 @@
+
+```markdown
+# Cloud Infrastructure Setup Guide
+
+This guide provides a step-by-step walkthrough for provisioning a Cloud VPS, configuring the operating system, and installing Docker. This formulates the baseline environment required to host data science workloads, Portainer management dashboards, and cloud database connections.
+
+---
+
+## Architecture Blueprint
+
+
+
+---
+
+## Step 1: Operating System Provisioning (Ubuntu 24.04 LTS)
+
+When deploying an environment for a data science and analytics portfolio, choosing a modern Long-Term Support (LTS) Linux distribution ensures stability and up-to-date driver/container compatibility.
+
+1. Log into your cloud service provider console (e.g., IDCloudHost, AWS, DigitalOcean).
+2. Create a new **Virtual Private Server (VPS)** resource.
+3. Select **Ubuntu 24.04 LTS** as the base Operating System image.
+4. Choose a hardware plan featuring at least **2 vCPUs and 4GB RAM** to comfortably process analytical workloads.
+5. Configure your SSH access keys, deploy the instance, and note down the assigned public **IP Address**.
+6. Access your newly created server by opening your local terminal and establishing an SSH connection:
+
+   ```bash
+   ssh dinner@<YOUR_VPS_IP>
+
+```
+
+---
+
+## Step 2: System Update and Package Synchronization
+
+Before installing third-party applications or runtimes, synchronize your local package index with the upstream Ubuntu repositories and upgrade existing packages to patch security vulnerabilities.
+
+Execute the following command to update index mappings and apply all pending upgrades safely:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+
+```
+
+> **Note on Permissions:** Linux restricts system-wide configurations to administrative users. The `sudo` (*SuperUser Do*) prefix temporarily grants administrative privileges to execute these core updates.
+
+---
+
+## Step 3: Docker Engine Installation
+
+Instead of installing individual system packages, deploying workflows containerized inside Docker isolates your dependencies and mirrors professional production environments.
+
+### 1. Execute the Official Docker Utility Script
+
+Download and run the official Docker deployment script provided by Canonical/Docker. This script automatically detects your OS distribution, adds the proper production repositories, and sets up the daemon:
+
+```bash
+curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh
+sudo sh get-docker.sh
+
+```
+
+### 2. Enable the Docker Daemon
+
+Configure the Docker engine service to initialize automatically whenever your host server experiences a reboot or hard power cycle:
+
+```bash
+sudo systemctl enable --now docker
+
+```
+
+### 3. Verify the Installation
+
+Validate that the daemon is functional, online, and checking in with the latest runtime version:
+
+```bash
+sudo docker --version
+sudo docker ps
+
+```
+
