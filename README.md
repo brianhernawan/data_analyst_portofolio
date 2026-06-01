@@ -29,7 +29,7 @@ I believe every insight should be traceable, explainable, and actionable—turni
 
 | Project | Description | Stack / Skills |
 |----------|--------------|----------------|
-| [SQL Data Warehouse Analysis](https://github.com/brianhernawan/sql-data-warehouse-project) | Sql analysis using datawarehouse infrastructure | Advanced SQL · Data Engineering · ETL · Data Analysis |
+| [SQL Data Warehouse Analysis](https://github.com/brianhernawan/sql-data-warehouse-project) | Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and advance data analysis | Advance SQL · Data Engineering · ETL · Data Analysis |
 | [Birtish Airways Service Level Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/British_Airways_service_level/BritishAirways) | Interactive BI dashboard analyzing service level & customer trends | Excel · Tableau |
 | [Washington House Sales Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/WashingtonHouseSales_17713782738880/HouseSalesDashboard) | Interactive BI dashboard analyzing House Sales & customer trends | Excel · Tableau |
 | [Channel Performance Review](https://public.tableau.com/app/profile/brianca.hernawan/viz/Youtube_viewers/YTChannelPerformance) | Interactive BI dashboard analyzing Correlation between Views and Length of Regular Videos | Excel · Tableau |
